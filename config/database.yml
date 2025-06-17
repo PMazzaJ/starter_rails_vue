@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: root
+  host: <%= ENV.fetch("DB_HOST") { "127.0.0.1" } %>
+
+development:
+  <<: *default
+  database: base_vue_development
+
+test:
+  <<: *default
+  database: base_vue_test
+
+production:
+  <<: *default
+  database: base_vue_production
+  username: base_vue
+  password: <%= ENV["BASE_VUE_DATABASE_PASSWORD"] %>

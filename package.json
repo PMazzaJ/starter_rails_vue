@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "sass-embedded": "^1.89.2",
+    "vite": "^5.4.19",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-ruby": "^5.1.1"
+  },
+  "dependencies": {
+    "@inertiajs/vue3": "^2.0.12",
+    "@js-from-routes/client": "^1.0.4",
+    "@js-from-routes/inertia": "^1.10.2",
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite-plugin-vuetify": "^2.1.1",
+    "vuetify": "^3.8.9"
+  }
+}

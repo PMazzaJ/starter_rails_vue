@@ -1,0 +1,10 @@
+/* app/assets/stylesheets/app.css */
+
+.linear-gradient {
+    background: linear-gradient(#cfd8dc, #fafafa);
+}
+
+.inertia-link {
+    color: #215e8f;
+    text-decoration: none;
+}
