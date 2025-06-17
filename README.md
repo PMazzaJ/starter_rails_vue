@@ -7,7 +7,7 @@ This is a starter project combining **Ruby on Rails** (API), **Vue 3**, **Vuetif
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/your-username/your-repo-name.git
+git clone  https://github.com/PMazzaJ/starter_rails_vue
 cd your-repo-name
 ```
 
