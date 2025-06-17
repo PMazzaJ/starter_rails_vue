@@ -22,6 +22,7 @@ bundle install
 ```sh
 bin/rails db:create
 bin/rails db:migrate
+bin/rails db:seed
 ```
 
 ### 4. Install JavaScript dependencies
